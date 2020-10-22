@@ -1,0 +1,41 @@
+div#all_container {
+    width: 100%;
+}
+
+div#contents {
+    width: 65%;
+    max-width: 800px;
+    margin: 0 auto;
+    /* Also considered: Montserrat */
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+h1#title {
+    text-align: center;
+    margin-top: 0.7em;
+}
+
+h2#subtitle {
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.blurb {
+    font-size: 1.1em;
+}
+
+div#games_list_container {
+    margin: 2em;
+}
+
+p.list_header {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+div#footer {
+    margin-top: 3em;
+    text-align: left;
+}
+

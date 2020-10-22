@@ -1,0 +1,61 @@
+div#contents {
+    text-align: center;
+}
+
+div#gameDisplay {
+    width: 85%;
+    max-width: 800px;
+    height: 60%;
+    overflow-y: scroll;
+    resize: vertical;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 2em;
+    border: 1px solid grey;
+    border-radius: 5px;
+    /* This enables scrolling to an inner element's offset. */
+    position: relative;
+}
+
+
+p.spacer {
+    margin: 0;
+}
+
+p.commandText {
+    font-family: monospace;
+    font-size: 1.6em;
+    margin: 0;
+}
+
+p.game_text {
+    margin: 0.3em;
+}
+
+div#input_container {
+    margin-top: 1em;
+}
+
+div#cutscene_input_container {
+    display: none;
+}
+
+input#game_input {
+    border-width: 0 0 1px 0;
+    border-bottom: solid black 1px;
+}
+
+span.objectName {
+    font-size:0.9em;
+}
+
+div#instructions {
+    margin-top: 3em;
+}
+
+li.example_command {
+    font-family: monospace;
+    font-size: 1.6em;
+}
+

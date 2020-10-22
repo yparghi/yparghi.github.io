@@ -1,0 +1,64 @@
+<html>
+
+<meta charset="utf-8" />
+
+<head>
+
+    <title>Cheater</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="cheater.css">
+
+    <script type="text/javascript" src="cheater-rosary-lib.js"></script>
+    <!-- Here, pick the game you'd like to load. -->
+    <script type="text/javascript" src="cheater-game.js"></script>
+
+</head>
+
+
+<body onload="rosary_start();">
+    <div id="all_container">
+    <div id="contents">
+
+        <h1 id="title">Cheater</h1>
+
+        <div id="gameDisplay"></div>
+
+        <div id="input_container">
+            <div id="regular_input_container">
+                <span id="arrow_prompt">&gt;</span>
+                <input type="text" id="game_input"></input>
+                <button type="button" id="command_button">Go!</button>
+                <p id="gameErrorDisplay"></p>
+            </div>
+            <div id="cutscene_input_container">
+                <button type="button" id="continue_button" onclick="continueCutscene();">Continue</button>
+                <p id="gameErrorDisplay"></p>
+            </div>
+        </div>
+
+        <div id="instructions">
+        <p class="list_header">Example Commands:</p>
+        <ul id="instructions_examples" class="blurb">
+            <li class="example_command">look</li>
+            <li class="example_command">look at [object]</li>
+            <li class="example_command">go to [exit]</li>
+            <li class="example_command">take [object]</li>
+            <li class="example_command">use [object]</li>
+            <li class="example_command">talk to [character]</li>
+            <li class="example_command">inventory (or "inv")</li>
+        </ul>
+        </div>
+
+        <div id="footer">
+        <hr/>
+        <p class="blurb">Powered by <a href="https://github.com/yparghi/rosary">Rosary</a> &mdash; a Javascript engine for interactive fiction.</p>
+        </div>
+
+    </div>
+    </div>
+</body>
+
+
+</html>
